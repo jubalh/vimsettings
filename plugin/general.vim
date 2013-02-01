@@ -52,7 +52,7 @@ set fileencoding=utf-8
 scriptencoding utf-8
 
 set list
-set listchars=tab:>-,trail: 
+set listchars=tab:>-,trail:·
 if has("linebreak")
     let &sbr = nr2char(8618).' '
 endif
